@@ -1,13 +1,15 @@
-package com.jgoodwin.profiler;
+package com.jgoodwin.profiler.account;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.jgoodwin.profiler.R;
+
+public class CreateAccountActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_create_account);
     }
 }
