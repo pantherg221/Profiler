@@ -6,4 +6,6 @@
 
     <color name="colorInverseBackground">#E8EAF6</color>
     <color name="errorColor">#DD2C00</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
 </resources>
