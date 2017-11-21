@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- ********************************* Input Fields ******************************* -->
+    <style name="InputField" parent="Widget.AppCompat.EditText" />
+
+    <style name="InputField.Credential">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_marginLeft">64dp</item>
+        <item name="android:layout_marginRight">64dp</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="InputField.Credential.Email">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="InputField.Credential.Password">
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <!-- ********************************* Labels ************************************* -->
+
+    <!-- ********************************* Containers ********************************* -->
+
+    <!-- ********************************* Buttons ************************************ -->
+</resources>

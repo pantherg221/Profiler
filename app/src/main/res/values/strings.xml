@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Profiler</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_welcome">Welcome to Profiler</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="hint_email">email@example.com</string>
+    <string name="hint_password">ABCdefg</string>
+    <string name="action_signin">Sign In</string>
+    <string name="action_register">Register</string>
 </resources>
