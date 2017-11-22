@@ -13,6 +13,7 @@
         android:gravity="center_horizontal">
 
         <TextView
+            style="@style/Label.CredentialHeader"
             android:id="@+id/lbl_login_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,6 +22,7 @@
             android:gravity="center" />
 
         <TextView
+            style="@style/Label.Sub"
             android:id="@+id/lbl_login_email_sub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,6 +38,7 @@
             android:layout_below="@+id/lbl_login_email_sub" />
 
         <TextView
+            style="@style/Label.Sub"
             android:id="@+id/lbl_login_password_sub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,16 +54,20 @@
             android:layout_below="@+id/lbl_login_password_sub" />
 
         <Button
+            style="@style/Button.Flat.Primary"
             android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
             android:text="@string/action_signin"
             android:layout_below="@+id/edt_login_password" />
 
         <Button
+            style="@style/Button.Flat.Primary"
             android:id="@+id/btn_create_account"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
             android:text="@string/action_register"
             android:layout_below="@+id/btn_login" />
 
